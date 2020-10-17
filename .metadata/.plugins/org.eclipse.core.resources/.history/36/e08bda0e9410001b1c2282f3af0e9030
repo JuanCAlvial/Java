@@ -1,0 +1,23 @@
+package com.syntax.class07;
+
+public class WhileLoopIntro {
+
+	public static void main(String[] args) {
+		int time=16;
+		
+		if(time>12) {
+			System.out.println("good day");
+		}
+			System.out.println("-------------------------------WHILE LOOP=---------------------");
+			//while(time>12) {
+			//System.out.println("good day");//INFINITE LOOP
+			//}
+			while(time>12) {
+				System.out.println("good day");//3
+				time--;
+			
+		}
+				
+	}
+
+}

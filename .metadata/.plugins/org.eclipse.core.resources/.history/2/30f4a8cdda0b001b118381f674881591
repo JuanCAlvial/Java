@@ -1,0 +1,15 @@
+package com.syntax.class06;
+
+public class NotMoreExamples {
+
+	public static void main(String[] args) {
+		
+		boolean isJavaEasy=false;
+		
+		if(!isJavaEasy) {
+			System.out.println("Please try to spend more time with java");
+		}
+		
+	}
+
+}

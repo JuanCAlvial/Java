@@ -1,0 +1,38 @@
+package com.syntax.recviewclass2;
+import java.util.Scanner;
+public class AaBaCc {
+
+	public static void main(String[]args) {
+	Scanner input=new Scanner(System.in);
+
+	String com;
+	boolean loan;
+	int score;
+	score=input.nextInt();
+	loan=input.nextBoolean();
+	System.out.println("Do you a need loan?");
+
+	if(loan){
+	  System.out.println("What is your credit score?");
+	  
+	  
+	  if(score<600){
+	  com=("Not Eligible");  
+	  }else if(score>=600 && score<700){
+	    com=("Maybe eligible");
+	  }else if(score>=701 && score<800){
+	    com=("Eligible");
+	  }else if(score>801){
+	    com=("Definitely eligible");
+	  }
+	  
+	}else{
+	  com=("Unknown");
+	  
+	}
+
+	System.out.println("The eligibility is "+com);
+
+
+	}
+	}

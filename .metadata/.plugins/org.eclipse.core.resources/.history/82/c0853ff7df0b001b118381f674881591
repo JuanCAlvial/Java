@@ -1,0 +1,26 @@
+package com.syntax.class06;
+import java.util.Scanner;
+public class Task1 {
+
+	public static void main(String[] args) {
+		// we are thinkinh of going shopping:
+		
+		Scanner input=new Scanner(System.in);
+		
+		
+		boolean sale=true;
+		
+		
+		if(sale) {
+			System.out.println("we go shoping");
+			if
+		}else {
+			System.out.println("we dont go shopping");
+		}
+
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.syntax.recviewclass2;
+import java.util.Scanner;
+public class AaBaCc {
+
+	 public static void main(String[]args){
+		    Scanner scan=new Scanner(System.in);
+		    
+		    char grade;
+		    
+		    System.out.println("Please enter your mark");
+		    int mark=scan.nextInt();
+		    
+		    if(mark>1 && mark<=25){
+		      grade='F';
+		    }
+		  }
+		}

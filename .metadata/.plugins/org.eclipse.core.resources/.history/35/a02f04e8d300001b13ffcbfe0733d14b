@@ -1,0 +1,25 @@
+package com.syntax.class02;
+
+public class VariableDeclaration {
+
+	public static void main(String[] args) {
+		// 1st way to create a variable
+		
+		//create variable = assigning value
+		//declare a variable = initializing
+		double $num=12.99;
+		
+		//2nd way to create a variable:
+		//declare a variable
+		//initialize or assign value
+		
+		int myBox;//we declare variable only once
+		myBox=135;
+		myBox=155;
+		
+		System.out.println(myBox);
+	
+
+	}
+
+}
